@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <br>
+    <a href="mailto:test@test.ua?subject=заголовок%20письма?body=наше%20тело письма">send our letter</a>
+
+    <form action="">
+        <input type="text" name="lasttname" placeholder="Ваше имя" style="width: 100%;">
+        <br>
+        <br>
+        <input type="text" name="firstname" placeholder="Ваше Фамилия" style="width: 100%;">
+        <br>
+        <br>
+
+
+
+        <label for="">Ваш пол</label>
+        <input type="radio" name="sex" id="sex_man" value="man">
+        <label for="sex_man">Мужской</label>
+
+        <input type="radio" name="sex" id="sex_women" value="women">
+        <label for="sex_women">Женский</label>
+        <br>
+        <br>
+        Вам больше 18 лет
+        <label>
+            <input type="radio" name="age" value="yes">
+            Да
+        </label>
+
+        <label>
+            <input type="radio" name="age" value="no">
+            Нет
+        </label>
+        <br>
+        <br>
+
+        Ваш город
+        <select name="city" id="" style="width: 100%;">
+            <option value="" disabled selected hidden>Виберите ваш город</option>
+            <option value="chernigiv">Чернигов</option>
+            <option value="kyiv">Киев</option>
+            <option value="odessa">Одесса</option>
+        </select>
+        <br>
+        <br>
+        <br>
+
+        Дополнительна информация
+        <textarea name="detalis" style="width: 100%;
+        height: 100px;" placeholder="введите текст"></textarea>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="OK">
+
+
+    </form>
+
+
+</body>
+
+</html>
